@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>will</Author>
+ </Creator>
+ <Manufacturer>Gruolin</Manufacturer>
+ <Model>RGB Fullcolor Beam Effect Light</Model>
+ <Type>Laser</Type>
+ <Channel Name="Mode Selection">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Closed Light Mode</Capability>
+  <Capability Min="64" Max="127">Manual Mode</Capability>
+  <Capability Min="128" Max="191">Auto Mode</Capability>
+  <Capability Min="192" Max="255">Sound Mode</Capability>
+ </Channel>
+ <Channel Name="Pattern">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="4">Pattern 1</Capability>
+  <Capability Min="5" Max="9">Pattern 2</Capability>
+  <Capability Min="10" Max="14">Pattern 3</Capability>
+  <Capability Min="15" Max="19">Pattern 4</Capability>
+  <Capability Min="20" Max="24">Pattern 5</Capability>
+  <Capability Min="25" Max="29">Pattern 6</Capability>
+  <Capability Min="30" Max="34">Pattern 7</Capability>
+  <Capability Min="35" Max="39">Pattern 8</Capability>
+  <Capability Min="40" Max="44">Pattern 9</Capability>
+  <Capability Min="45" Max="49">Pattern 10</Capability>
+  <Capability Min="50" Max="54">Pattern 11</Capability>
+  <Capability Min="55" Max="59">Pattern 12</Capability>
+  <Capability Min="60" Max="64">Pattern 13</Capability>
+  <Capability Min="65" Max="69">Pattern 14</Capability>
+  <Capability Min="70" Max="74">Pattern 15</Capability>
+  <Capability Min="75" Max="79">Pattern 16</Capability>
+  <Capability Min="80" Max="84">Pattern 17</Capability>
+  <Capability Min="85" Max="89">Pattern 18</Capability>
+  <Capability Min="90" Max="94">Pattern 19</Capability>
+  <Capability Min="95" Max="99">Pattern 20</Capability>
+  <Capability Min="100" Max="104">Pattern 21</Capability>
+  <Capability Min="105" Max="109">Pattern 22</Capability>
+  <Capability Min="110" Max="114">Pattern 23</Capability>
+  <Capability Min="115" Max="119">Pattern 24</Capability>
+  <Capability Min="120" Max="124">Pattern 25</Capability>
+  <Capability Min="125" Max="129">Pattern 26</Capability>
+  <Capability Min="130" Max="134">Pattern 27</Capability>
+  <Capability Min="135" Max="139">Pattern 28</Capability>
+  <Capability Min="140" Max="144">Pattern 29</Capability>
+  <Capability Min="145" Max="149">Pattern 30</Capability>
+  <Capability Min="150" Max="154">Pattern 31</Capability>
+  <Capability Min="155" Max="159">Pattern 32</Capability>
+  <Capability Min="160" Max="164">Pattern 33</Capability>
+  <Capability Min="165" Max="169">Pattern 34</Capability>
+  <Capability Min="170" Max="174">Pattern 35</Capability>
+  <Capability Min="175" Max="179">Pattern 36</Capability>
+  <Capability Min="180" Max="184">Pattern 37</Capability>
+  <Capability Min="185" Max="189">Pattern 38</Capability>
+  <Capability Min="190" Max="194">Pattern 39</Capability>
+  <Capability Min="195" Max="199">Pattern 40</Capability>
+  <Capability Min="200" Max="204">Pattern 41</Capability>
+  <Capability Min="205" Max="209">Pattern 42</Capability>
+  <Capability Min="210" Max="214">Pattern 43</Capability>
+  <Capability Min="215" Max="219">Pattern 44</Capability>
+  <Capability Min="220" Max="224">Pattern 45</Capability>
+  <Capability Min="225" Max="229">Pattern 46</Capability>
+  <Capability Min="230" Max="234">Pattern 47</Capability>
+  <Capability Min="235" Max="239">Pattern 48</Capability>
+  <Capability Min="240" Max="244">Pattern 49</Capability>
+  <Capability Min="245" Max="249">Pattern 50</Capability>
+  <Capability Min="250" Max="254">Pattern 51</Capability>
+ </Channel>
+ <Channel Name="Angle Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Rotation Angle</Capability>
+  <Capability Min="128" Max="191">Rotate CW Speed</Capability>
+  <Capability Min="192" Max="255">Rotate CCW Speed</Capability>
+ </Channel>
+ <Channel Name="Horizontal Angle">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Horizontal Flip Position</Capability>
+  <Capability Min="128" Max="255">Horizontal Flip Speed</Capability>
+ </Channel>
+ <Channel Name="Vertical Angle">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Vertical Flip Position</Capability>
+  <Capability Min="128" Max="255">Vertical Flip Speed</Capability>
+ </Channel>
+ <Channel Name="Horizontal Position">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Horizontal Position</Capability>
+  <Capability Min="128" Max="255">Horizontal Movement Speed</Capability>
+ </Channel>
+ <Channel Name="Vertical Position">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Vertical Position</Capability>
+  <Capability Min="128" Max="255">Vertical Movement Speed</Capability>
+ </Channel>
+ <Channel Name="Pattern Size Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Fixed Size (large -&gt; small)</Capability>
+  <Capability Min="64" Max="127">Small to Large speed (slow -&gt; fast)</Capability>
+  <Capability Min="128" Max="191">Large to Small speed (slow -&gt; fast)</Capability>
+  <Capability Min="192" Max="255">Size Zoom Speed (slow -&gt; fast)</Capability>
+ </Channel>
+ <Channel Name="Color Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Monochrome</Capability>
+  <Capability Min="64" Max="127">Color selection</Capability>
+  <Capability Min="128" Max="191">Monochrome auto</Capability>
+  <Capability Min="192" Max="255">Color mixing</Capability>
+ </Channel>
+ <Channel Name="Node Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Dots &amp; Lines</Capability>
+  <Capability Min="128" Max="255">Dots only</Capability>
+ </Channel>
+ <Mode Name="Normal">
+  <Channel Number="0">Mode Selection</Channel>
+  <Channel Number="1">Pattern</Channel>
+  <Channel Number="2">Angle Control</Channel>
+  <Channel Number="3">Horizontal Angle</Channel>
+  <Channel Number="4">Vertical Angle</Channel>
+  <Channel Number="5">Horizontal Position</Channel>
+  <Channel Number="6">Vertical Position</Channel>
+  <Channel Number="7">Pattern Size Control</Channel>
+  <Channel Number="8">Color Control</Channel>
+  <Channel Number="9">Node Control</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="30" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
