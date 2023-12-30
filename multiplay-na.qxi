@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>will</Author>
+ </Creator>
+ <Manufacturer>multiplay</Manufacturer>
+ <Model>na</Model>
+ <Type>OSC</Type>
+ <Channel Number="9372">
+  <Name>/pink</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="18068">
+  <Name>/blue2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="18799">
+  <Name>/strobe</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="29711">
+  <Name>/blue1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="31208">
+  <Name>/fire</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="46283">
+  <Name>/goboup</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="46973">
+  <Name>/rainbow</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="62742">
+  <Name>/gobodown</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>
